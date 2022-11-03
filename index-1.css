@@ -1,0 +1,62 @@
+body{
+    text-align: center;
+    margin: 0;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN4eOaQv0QoCulGi9uUDrTMjixlVQONw40kg&usqp=CAU');
+    background-size: cover;
+}
+.menu{
+    position: fixed;
+    width: 100%;
+    background-color: yellow;
+    margin-top: 0%;
+    height: 50px;  
+
+}
+.links{
+    display: inline;
+    padding: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px red;
+}
+.links:hover{
+   font-size: 30px;
+   text-decoration: underline;
+  
+}
+a:hover{
+    color: blue;
+}
+html{
+    scroll-behavior: smooth;
+}
+img{
+    margin-top: 80px;
+    height: 7cm;
+}
+#name{
+    font-family: 'Freehand', cursive;
+    font-size: 40px;
+}
+#welcome{
+    background: linear-gradient(to bottom right,aqua,rgb(63, 206, 73),blue);
+}
+.menutext{
+    padding-top: 13px;
+}
+
+.line{
+    background-color: black;
+    margin-right: auto;
+    margin-left: auto;
+}
+.contact_1 a{
+    text-shadow: none;
+    color: black;
+}
+
+.contact_1 h3{
+    display: inline;
+}
